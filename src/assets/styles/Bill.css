@@ -1,0 +1,36 @@
+.img-cat{
+    height: 70px;
+    margin-right: 10px;
+}
+.cont-bill{
+    margin-bottom: 10px;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.image-container{
+    display: flex;
+    
+}
+.info-text{
+    margin: 0;
+    color: black;
+    font-size: 17px;
+}
+
+.text-cat{
+    text-transform: uppercase;
+    color: grey;
+}
+
+.text-name{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+.text-date{
+    color: rgb(167, 2, 98);
+    background-color: rgba(250, 235, 215, 0.445);
+}

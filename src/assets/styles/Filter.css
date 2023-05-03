@@ -1,0 +1,12 @@
+.filtro-cont{
+    width: 100%;
+    border-radius: 16px;
+    z-index: 500;
+    
+}
+
+.card-mia{
+    margin-top: 25px;
+    padding: 25px;
+    
+}

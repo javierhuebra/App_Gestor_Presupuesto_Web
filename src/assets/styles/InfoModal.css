@@ -1,0 +1,80 @@
+.img-banner {
+    width: 100%;
+
+}
+
+.text-info-easy {
+
+    width: 100%;
+    text-align: center;
+}
+
+.cont-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cont-iframe {
+    width: 300px;
+    height: 255px;
+    background-color: rgb(221, 221, 221);
+    position: relative;
+}
+
+.ifram-e {
+    position: absolute;
+
+    z-index: 200;
+}
+
+
+.spin-er {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -10px;
+    margin-left: -10px;
+    z-index: 1;
+}
+
+.cont-text-info {
+
+
+    width: 100%;
+
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.text-in {
+    margin: 0;
+    font-size: 14px;
+
+}
+
+.tab-info {
+    border-collapse: collapse;
+    /* Combina los bordes de las celdas */
+    width: 100%
+}
+
+.tab-info td,
+th {
+    border: 1px solid rgb(138, 138, 138);
+    /* Agrega un borde de 1 píxel de grosor a las celdas */
+    padding: 3px;
+    /* Añade un relleno de 8 píxeles a las celdas */
+    text-align: left;
+    /* Alinea el texto a la izquierda */
+
+    font-size: 14px;
+}
+
+.link-edin{
+    text-decoration: none;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #0a66c2;
+    padding: 0px 5px;
+}

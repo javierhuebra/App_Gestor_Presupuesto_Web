@@ -1,0 +1,47 @@
+.label-spent-form{
+    display: block;
+}
+/* .modal-body{
+    background-color: rgb(55, 58, 248);
+} */
+
+.tit-mod{
+    text-align: center;
+}
+
+.input-mod{
+    width: 100%;
+    height: 40px;
+    padding-left: 5px;
+    border-radius: 5px;
+
+    border: none;
+    background-color: rgb(219, 219, 219);
+
+    margin-bottom: 10px;
+    
+    outline: none;
+    
+}
+
+
+
+.btn-submit{
+    width: 100%;
+    margin-top: 15px;
+}
+
+.cont-select-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-select{
+    width: 50px;
+    margin-left: 10px;
+}
+
+.cont-select{
+    width: 100%;
+}

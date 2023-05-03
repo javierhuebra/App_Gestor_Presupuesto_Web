@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comme', sans-serif;
+}
+
+.app-container {
+    min-height: 100vh;
+    background-color: #F5F5F5;
+}
+
+.parte-superior {
+    background-color: #3b82f6;
+
+    min-height: 40vh;
+
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.parte-inferior {
+
+    min-height: 60vh;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: flex-start;
+
+    background-image: url('./assets/images/logoapp.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+position: relative;
+
+
+}
+
+.img-app {
+    width: 350px;
+}
+
+.btn-success {
+
+    margin: 0 25px;
+
+    margin-top: 35px;
+
+}
+
+.btn-plus {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+    font-size: 65px;
+    font-weight: bold;
+
+    background-color: rgb(62, 178, 255);
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    
+}
+
+.cont-btn-plus{
+    
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-end;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+
+    z-index: 500;
+}
+
+.cartelito{
+    height: 150px;
+    width: 160px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.521);
+    display: none;
+    border-radius: 16px;
+
+}
+.tit-cartelito{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    
+    margin: 0;
+    
+}
+
+.cont-cartelito{
+border-top: 1px solid white;
+margin: 3px 5px;
+padding-top: 5px;
+
+}
+
+.text-catelito{
+    color: white;
+    margin: 0;
+}
+.flecha{
+    font-size: 25px;
+    text-align: center;
+    
+}
+
+.logo-google{
+    
+    
+    width: 150px;
+    
+}
+
+.btn-edit{
+    margin-right: 15px;
+}
+
+.ancor{
+    text-decoration: none;
+    color: black;
+    
+}
+
+@media (min-width: 701px) {
+    .btn-plus {
+      
+      
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.514);
+
+      border-radius: 16px;
+      padding: 0 80px;
+    }
+    .cartelito{
+        display: block;
+    }
+  }
+
