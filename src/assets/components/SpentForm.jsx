@@ -116,7 +116,7 @@ const SpentForm = ({ modalForm, setModalForm, handleBill, bill, setBill, deleteB
           }}>DELETE</Button>}
       </Modal.Header>
       <Modal.Body>
-        <h4 className='tit-mod'>New Spent</h4>
+        <h4 className='tit-mod'>{bill.id ? 'Edit Spent' : 'New Spent'}</h4>
 
         <form onSubmit={handleSubmit}>
           <label
@@ -166,7 +166,9 @@ const SpentForm = ({ modalForm, setModalForm, handleBill, bill, setBill, deleteB
 
           <div className='cont-submit'>
 
-            <Button className='btn-submit' as="input" type="submit" value="ADD SPENT" />
+
+          
+            <Button className='btn-submit' as="input" type="submit" value={bill.id ? 'EDIT' : 'ADD SPENT'} />
           </div>
 
         </form>
