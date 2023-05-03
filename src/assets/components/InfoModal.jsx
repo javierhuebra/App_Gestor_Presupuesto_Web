@@ -41,13 +41,13 @@ const InfoModal = (props) => {
               <tr>
                 <td>Versión</td>
                 <td>Plataformas</td>
-                <td>Creador</td>
+                
                 <td>Contacto</td>
               </tr>
               <tr>
                 <td>1.0</td>
                 <td>Web y Android</td>
-                <td>Javier Huebra</td>
+                
                 <td><a href="https://www.linkedin.com/in/javieremanuelhuebra/" className='link-edin' target='blank_'>Linkedin</a></td>
               </tr>
             </table>
