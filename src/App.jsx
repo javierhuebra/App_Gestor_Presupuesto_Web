@@ -170,8 +170,8 @@ function App() {
   const deleteBill = id => {
 
     swalWithOthersBootstrapButtons.fire({
-      title: 'Desea eliminar el',
-      text: { id },
+      title: 'You are about to eliminate an expense',
+      text: 'Deleted expenses cannot be recovered',
       icon: 'warning',
       showCancelButton: true,
       confirmButtonColor: '#3085d6',
