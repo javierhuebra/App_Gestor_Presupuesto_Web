@@ -33,9 +33,7 @@ const InfoModal = (props) => {
 
           <div className='cont-text-info'>
             <p className='text-in'>
-              Easy Planner es una aplicación multiplataforma,
-              ya que se puede utilizar desde la web o descargarla en dispositivos android
-              siguiendo el enlace a la playstore en la pantalla principal.
+              Easy Planner es una aplicación multiplataforma que se puede utilizar desde la web o descargarla en dispositivos android.
             </p>
             <table className='tab-info'>
               <tr>
